@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sachin Dhamija - Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      nav {
+        background: #444;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem;
+      }
+      nav a {
+        color: #fff;
+        margin: 0 1rem;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      section {
+        padding: 2rem;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      h2 {
+        color: #333;
+      }
+      /* Flexbox Layout for Skills */
+      .skills,
+      .soft-skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+      .skills div,
+      .soft-skills div {
+        background: #f4f4f4;
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        flex: 1 1 calc(33.333% - 2rem);
+        box-sizing: border-box;
+        text-align: center;
+      }
+      /* Grid Layout for Projects */
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+      .project {
+        background: #f4f4f4;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background: #333;
+        color: #fff;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sachin Dhamija</h1>
+      <p>Dedicated Full Stack Developer | React, .NET, Shopify E-commerce</p>
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Experienced Full Stack Developer with expertise in React, .NET,
+          Shopify E-commerce, and Project Management. Proficient in Agile
+          methodologies and delivering scalable solutions.
+        </p>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="container">
+        <h2>Professional Experience</h2>
+        <h3>Shopify Developer | Technical Project Manager</h3>
+        <p>HCD Furniture, Toronto (April 2024 – Present)</p>
+        <ul>
+          <li>E-commerce Management</li>
+          <li>Project Leadership</li>
+          <li>Digital Marketing Oversight</li>
+        </ul>
+
+        <h3>Project Manager & Developer</h3>
+        <p>GeekyBones Lab Pvt. Ltd. (2022–January 2024)</p>
+        <ul>
+          <li>
+            Managed high-level e-commerce projects, travel websites, and food
+            delivery apps.
+          </li>
+          <li>Led a team of developers and testers.</li>
+          <li>Ensured seamless collaboration and client satisfaction.</li>
+        </ul>
+
+        <h3>.Net Core + React Developer</h3>
+        <p>
+          XDuss Consulting Private Limited, Mohali (June 2022–December 2022)
+        </p>
+        <ul>
+          <li>
+            Developed web applications focusing on performance and user
+            experience.
+          </li>
+          <li>Collaborated on API integration and scalable solutions.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+          <div>HTML, CSS, Bootstrap, Tailwind</div>
+          <div>JavaScript, React, TypeScript</div>
+          <div>.NET Web API, ASP.NET Core MVC</div>
+          <div>Entity Framework Core, ADO.NET</div>
+          <div>Shopify, E-commerce</div>
+          <div>Azure</div>
+          <div>MS SQL, MySQL</div>
+        </div>
+        <h2>Soft Skills</h2>
+        <div class="soft-skills">
+          <div>Client Handling</div>
+          <div>Leadership</div>
+          <div>Problem-Solving</div>
+          <div>Time Management</div>
+          <div>Adaptability</div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <h2>Core Projects</h2>
+        <div class="projects">
+          <div class="project">
+            <h3>Shopify</h3>
+            <p>
+              <a href="https://crafthomedecor.com" target="_blank"
+                >crafthomedecor.com</a
+              >
+            </p>
+          </div>
+          <div class="project">
+            <h3>.NET Web API & React</h3>
+            <p>
+              <a href="https://thepsoftware.com" target="_blank"
+                >thepsoftware.com</a
+              >
+            </p>
+          </div>
+          <div class="project">
+            <h3>Project Management</h3>
+            <p>
+              <a href="https://sportsgearswag.com" target="_blank"
+                >sportsgearswag.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p><strong>Address:</strong> 59 Verne Cres, Toronto</p>
+        <p><strong>Phone:</strong> (647) 213-0079</p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:sachin.ca647@gmail.com">sachin.ca647@gmail.com</a>
+        </p>
+        <p>
+          <strong>LinkedIn:</strong>
+          <a
+            href="https://www.linkedin.com/in/sachin-dhamija-13a974179/"
+            target="_blank"
+            >LinkedIn Profile</a
+          >
+        </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/sachindhamija" target="_blank"
+            >GitHub Profile</a
+          >
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Sachin Dhamija. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
